@@ -109,7 +109,7 @@ def preprocess(in_test_mode, PROJECT, BUCKET, start_year):
   # the next step of pipeline will look for this file
   with open("/output.txt", "w") as output_file:
     output_file.write(BUCKET)
-    print("### TEST1 git CI Trigger ###")
+    print("### TEST git CI Trigger ###")
     print("Done!")
 
 
